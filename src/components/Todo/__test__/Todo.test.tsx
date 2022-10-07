@@ -1,5 +1,5 @@
 import { render, fireEvent, screen } from '../../../utils/test-utils';
-import Todo from '../Todo';
+import Todo from '..';
 import { mockLocalStorage } from '../../../setupTests';
 import { Task } from '../../../types';
 

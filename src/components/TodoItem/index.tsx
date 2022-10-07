@@ -2,7 +2,7 @@ import { FaTrashAlt } from 'react-icons/fa';
 import { useAppDispatch } from '../../redux/hooks/typedHooks';
 import { markComplete, deleteTodo } from '../../redux/slice/todosSlice';
 import { Task, HandleDelAndStatusFn } from '../../types';
-import './TodoItem.css';
+import './style.css';
 
 const TodoItem = ({ todo }: { todo: Task }) => {
   const dispatch = useAppDispatch();

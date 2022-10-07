@@ -1,9 +1,9 @@
 import { useAppDispatch, useAppSelector } from '../../redux/hooks/typedHooks';
 import { show } from '../../redux/slice/visibilitySlice';
 import { FaBroom } from 'react-icons/fa';
-import AddTodo from '../AddTodo/AddTodo';
-import TodoList from '../TodoList/TodoList';
-import CustomPopup from '../Popup/Popup';
+import AddTodo from '../AddTodo';
+import TodoList from '../TodoList';
+import CustomPopup from '../Popup';
 
 const Todo = () => {
   const { todos } = useAppSelector(state => state);

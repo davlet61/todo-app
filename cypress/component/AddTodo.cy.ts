@@ -1,5 +1,7 @@
+import AddTodo from '../../src/components/AddTodo'
+
 describe('AddTodo.cy.ts', () => {
-  it('playground', () => {
-    // cy.mount()
+  it('mounts', () => {
+    cy.mount(AddTodo)
   })
 })

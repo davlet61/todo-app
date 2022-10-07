@@ -2,7 +2,7 @@ import { ReactNode } from 'react';
 import { useAppDispatch, useAppSelector } from '../../redux/hooks/typedHooks';
 import { clearState } from '../../redux/slice/todosSlice';
 import { show } from '../../redux/slice/visibilitySlice';
-import './Popup.css';
+import './style.css';
 
 const Popup = ({ children }: { children: ReactNode }) => {
   const { visibility } = useAppSelector(state => state);

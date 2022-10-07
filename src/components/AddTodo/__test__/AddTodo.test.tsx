@@ -1,5 +1,5 @@
 import { render, fireEvent, screen } from '../../../utils/test-utils';
-import AddTodo from '../AddTodo';
+import AddTodo from '..';
 
 describe('AddTodo', () => {
   test('should render input element', () => {

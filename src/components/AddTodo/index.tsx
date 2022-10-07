@@ -3,7 +3,7 @@ import { v4 } from 'uuid';
 import { Task, HandleChangeFn, HandleSubmitFn } from '../../types';
 import { addTodo } from '../../redux/slice/todosSlice';
 import { useAppDispatch } from '../../redux/hooks/typedHooks';
-import './AddTodo.css';
+import './style.css';
 
 const AddTodo = () => {
   const initialState: Task = {

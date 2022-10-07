@@ -1,5 +1,5 @@
-import TodoItem from '../TodoItem/TodoItem';
-import './TodoList.css';
+import TodoItem from '../TodoItem';
+import './style.css';
 import { useAppSelector } from '../../redux/hooks/typedHooks';
 
 const TodoList = () => {
