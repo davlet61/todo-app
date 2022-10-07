@@ -22,6 +22,7 @@
     "web-vitals": "^3.0.3"
   },
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
