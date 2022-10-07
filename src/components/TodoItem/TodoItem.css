@@ -1,0 +1,89 @@
+.todo__title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.todo__desc {
+  font-size: 1rem;
+  color: gray;
+  text-align: center;
+  font-style: oblique;
+}
+
+.todo__button--remove {
+  position: absolute;
+  top: 1rem;
+  right: 1.3rem;
+  cursor: pointer;
+  background: none;
+  border: none;
+  transition: all 0.5s;
+}
+
+.todo__button--remove:hover {
+  transform: scale(2);
+  margin-top: 1rem;
+  transition: all 0.5s;
+}
+
+.button__icon {
+  font-size: 1.1rem;
+  color: purple;
+}
+
+.todo__title,
+.todo__desc {
+  pointer-events: none;
+}
+
+.todo {
+  background-color: #fff;
+  color: #333;
+  border-radius: 1rem;
+  padding: 1.2rem;
+  margin-top: 1rem;
+  position: relative;
+}
+
+.todo:hover {
+  cursor: pointer;
+}
+
+.todo--reverse {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+
+.todo--completed {
+  order: 2;
+  background-color: rgb(128, 208, 199);
+  font-style: italic;
+  opacity: 0.7;
+}
+
+.todo--completed > .todo__button--remove > .button__icon {
+  color: rgb(118, 0, 0);
+}
+
+.todo--completed > .todo__title,
+.todo--completed > .todo__desc {
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+  color: white;
+}
+
+/* Medium devices */
+@media only screen and (min-width: 768px) {
+  .todo__title {
+    font-size: 1.8rem;
+  }
+
+  .todo__desc {
+    font-size: 1.5rem;
+  }
+
+  .button__icon {
+    font-size: 1.3rem;
+  }
+}
