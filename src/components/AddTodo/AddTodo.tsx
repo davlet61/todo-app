@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { v4 } from 'uuid';
-import { Task, HandleChangeFn, HandleSubmitFn } from '../../Types/Types';
+import { Task, HandleChangeFn, HandleSubmitFn } from '../../types';
 import { addTodo } from '../../redux/slice/todosSlice';
 import { useAppDispatch } from '../../redux/hooks/typedHooks';
 import './AddTodo.css';
